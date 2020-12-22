@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+    <head>
+
+        <link rel="stylesheet" href="./css/nysl2.css">
+
+        <header>
+            <div class="contenedor_flex1">
+
+                <div class="cabecera">
+                    <h1>Northside Youth Soccer League</h1>
+                </div>
+
+                <div class="cabecera2">
+                    <h1>Contact</h1>
+                    <img src="./images/nysl_logo.png" alt="logo" width="180" height="180" class="logo">
+                </div>
+
+            </div>
+
+        </header>
+
+    </head>
+
+    <body>
+
+        <div class="contenedor_izquierdo">
+            <ul>
+                <li><h3><a href="home.html">Home</a></h3></li>
+                <li><h3><a href="about.html">About</a></h3></li>
+                <li><h3><a href="contact.html">Contact</a></h3></li>
+                <li><h3><a href="rules.html"style="text-decoration: none;">Politicas y Reglas</a></h3></li>
+            </ul>
+
+        </div>
+
+        <div class="contenedor_central">
+            <h3>Formulario de inscripción</h3>
+
+        <form action="Feedback.html">  
+
+            <table>
+                <tr>
+                    <td><label for="fname">Nombre Jugador:</label></td>
+                    <td><input type="text" id="fname" name="fname"></td> 
+
+                    <td><label for="lname">Apellido:</label><br></td>
+                    <td><input type="text" id="lname" name="lname" ></td>
+                                
+                </tr>
+                                 
+                <tr>
+                    <td><label for="address">Domicilio:</label></td>
+                    <td><input type="text" id="address" name="address" ></td>              
+                </tr> 
+
+                 <tr>
+                    <td> <label for="city">Ciudad:</label></td>
+                    <td><input type="text" id="city" name="city" ></td>
+
+                    <td><label for="postalcode">Codigo Postal:</label></td>
+                    <td><input type="text" id="postalcode" name="postalcode" ></td>
+                            
+                </tr>
+
+                <tr>
+                     <td><label for="birthday">Fecha de Nacimiento:</label></td>
+                     <td><input type="date" id="birthday" name="birthday" value="2010-01-01" min="2000-01-01" max="2025-12-31"> </td>              
+                
+                </tr>
+                <tr>  
+                    <td>Genero:<label for="Masculino">Masculino</label> </td>
+                    <td><input type="checkbox" id="Masculino" name="sexo"></td>
+
+                     <td><label for="Femenino">Femenino</label></td>
+                     <td> <input type="checkbox" id="Femenino" name="sexo"></td>
+                </tr>
+
+
+
+                <tr>
+                    <td><label for="Prescolar">Prescolar</label> 
+                    <input type="checkbox" id="Prescolar" name="grado"></td>
+
+                    <td><label for="1ro">1ro</label>
+                    <input type="checkbox" id="1ro" name="grado">
+
+                     <label for="2do">2do</label>
+                     <input type="checkbox" id="2do" name="grado">
+
+                     <label for="3ro">3ro</label>
+                      <input type="checkbox" id="3ro" name="grado"></td>
+                     
+                     <td><label for="4to">4to</label>
+                     <input type="checkbox" id="4to" name="grado"></td>
+                     
+                     <td><label for="5to">5to</label>
+                     <input type="checkbox" id="5to" name="grado"></td>
+
+                </tr>
+            </table>
+                        <h3>¿De que escuela vives mas cerca</h3>
+                        <h4>Escuela mas cercana: </h4>
+            <Table> 
+                <tr>
+                        <td>
+                            <input type="checkbox" id="AJ Katzenmaier " name="Escuela_cercana">
+                            <label for="AJ Katzenmaier ">AJ Katzenmaier </label> 
+                            
+                        </td>
+      
+                        <td><input type="checkbox" id="Marjorie P Hart " name="Escuela_cercana">
+                            <label for="Marjorie P Hart ">Marjorie P Hart </label></td>
+                  
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="Greenbay " name="Escuela_cercana">
+                        <label for="Greenbay ">Greenbay </label> 
+                    
+                    </td>
+                    
+                    <td>
+                    
+                        <input type="checkbox" id="North Elementary " name="Escuela_cercana">
+                        <label for="North Elementary ">North Elementary </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="Howard A Yeager " name="Escuela_cercana">
+                        <label for="Howard A Yeager ">Howard A Yeager </label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="South Elementary " name="Escuela_cercana">
+                        <label for="South Elementary ">South Elementary </label>
+                    </td>
+
+                </tr>
+
+            </table>
+
+            <h3>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</h3>
+
+            <table>
+
+               <tr>
+                <td>
+                    <input type="checkbox" id="Delantero  " name="posicion">
+                    <label for="Delantero  ">Delantero  </label>
+
+                </td>
+
+            <td>
+                <input type="checkbox" id="mediocampo  " name="posicion">
+                <label for="mediocampo  ">mediocampo  </label>
+
+            </td>
+
+              </tr>
+
+              <tr>
+                 <td>
+                    <input type="checkbox" id="Portero  " name="posicion">
+                    <label for="Portero  ">Portero  </label> 
+                         
+                </td>
+
+                <td>
+                    <input type="checkbox" id="defensa  " name="posicion">
+                    <label for="defensa  ">defensa  </label> 
+
+                </td>
+
+                </tr>
+
+            </table>
+
+                <h3>Tamaño uniforme:</h3>
+
+                <table>
+                <tr>
+                <td>
+                    <input type="checkbox" id="Niño P  " name="Tamaño_uniforme">
+                    <label for="Niño P  ">Niño P  </label> 
+
+                </td>
+
+                <td>
+                    <input type="checkbox" id="Mediano  " name="Tamaño_uniforme">
+                    <label for="Mediano  ">Mediano  </label> 
+                </td>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" id="Niño M   " name="Tamaño_uniforme">
+                        <label for="Niño M">Niño M   </label> 
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="Grande" name="Tamaño_uniforme">
+                        <label for="Grande">Grande</label>
+                    </td>
+                    
+                </tr>
+
+                <tr>
+                   <td>
+                    <input type="checkbox" id="Niño G   " name="Tamaño_uniforme">
+                    <label for="Niño G   ">Niño G   </label> 
+
+                </td>
+
+                <td>
+                    <input type="checkbox" id="Extra-Grande" name="Tamaño_uniforme">
+                    <label for="Extra-Grande">Extra-Grande
+                </label> 
+                
+                 </td>
+
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="Pequeño" name="Tamaño_uniforme">
+                    <label for="Pequeño">Pequeño </label>
+
+                 </td>
+
+                </tr>
+
+          </table>
+
+          <h3>Permiso para jugar:</h3>
+
+          <p>
+            Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+            yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+            de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+            para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+            personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+            cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+            solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+            Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+            que he leído la política de cancelación y acepto sus términos.
+          </p>
+
+          <table>
+            <tr> 
+                <p>Al ingresar su nombre a continuación,Ud. está autorizando el formulario:</p>
+            </tr>  
+                <tr>
+                    <td><label for="firma">Firma Padre/Tutor:</label></td>
+                    <td><input type="text" id="firma" name="firma" ></td>
+
+                    <td><label for="OKdate">Fecha:</label></td>
+                    <td><input type="date" id="OKdate" name="OKdate" value="2020-01-01" min="2000-01-01" max="2025-12-31"> </td>              
+
+                </tr>     
+          </table>
+         
+<br>
+<br>
+
+     <input type="submit" value="Enviar">
+    </form>
+
+            <p> Please email us at nyal@chisoccer.org</p> 
+
+            <p> We will reply to your e-mail as soon as we can. </p>
+         
+        </div>
+
+    </body>
+
+</html>
